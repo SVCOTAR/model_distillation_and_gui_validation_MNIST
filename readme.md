@@ -4,22 +4,4 @@ distilling_model.py 用于训练teacher模型，student模型，distilling model
 # app_gradio.py
 app_gradio.py导出蒸馏模型，并创建UI界面，进行图片识别和手写识别。
 
-1 个输入层 + 2 个隐藏层 + 1 个输出层
-层	权重	偏置	小计
-fc1: Linear(784, 20)
-784 × 20 = 15,680
-20
-15,700
-fc2: Linear(20, 20)
-20 × 20 = 400
-20
-420
-fc3: Linear(20, 10)
-20 × 10 = 200
-10
-210
-总计
-—
-—
-16,330
-
+<img width="1047" height="233" alt="image" src="https://github.com/user-attachments/assets/780607c6-b57e-4516-8821-31b034026cc8" />
