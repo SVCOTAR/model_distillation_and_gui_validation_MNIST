@@ -3,3 +3,5 @@ distilling_model.py 用于训练teacher模型，student模型，distilling model
 
 # app_gradio.py
 app_gradio.py导出蒸馏模型，并创建UI界面，进行图片识别和手写识别。
+
+1 个输入层 + 2 个隐藏层 + 1 个输出层
